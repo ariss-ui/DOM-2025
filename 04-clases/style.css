@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+ul {
+  list-style: none;
+}
+
+.ingredientes {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid darkslateblue;
+  padding: 1rem;
+}
+
+.subtitulo {
+  margin-bottom: 1rem;
+}
+
+.lista {
+  list-style: none;
+}
+
+.botana {
+  padding: .5rem .3rem;
+}
+
