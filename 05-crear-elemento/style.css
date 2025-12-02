@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.contenedor {
+  background-color: cadetblue;
+  padding: 24px;
+  max-width: 400px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.subtitulo {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: whitesmoke;
+}
+
+.series {
+  list-style: none;
+}
+
+.serie {
+  padding: 1rem .5rem;
+  color: whitesmoke;
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.fondo-uno {
+  background-color: darkslateblue;
+}
+
+.fondo-uno:hover {
+  background-color: skyblue;
+}
+
+.fondo-dos {
+  background-color: lightblue;
+}
+
+.fondo-dos:hover {
+  background-color: royalblue ;
+}
+

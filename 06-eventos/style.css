@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  font-family: Montserrat;
+  color: whitesmoke;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  padding: 1rem .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: .5rem;
+  background-color: slateblue;
+  color: whitesmoke;
+/*   box-shadow: 0 5px 0 0 darkslateblue; */
+  cursor: pointer;
+  transition: all .400s ease;
+}
+
+button:hover {
+  background-color: rgb(49, 41, 95);
+  box-shadow: 0 5px 0 0 rgb(20, 17, 39) ;
+}
