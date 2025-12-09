@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background-color: darkslateblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.apachurrar {
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(63, 0, 0);
+  background-color:rebeccapurple;
+  cursor: pointer;
+  scale: 1;
+  transition: all 0.3s ease;
+}
+
+.apachurrar:hover {
+  color: whitesmoke;
+  background-color: black;
+  scale: 1.2;
+}
+
+.apachurrar:active {
+  scale: .9;
+}
